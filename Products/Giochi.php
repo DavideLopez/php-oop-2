@@ -2,6 +2,10 @@
 
 include_once __DIR__ . '/Prodotti.php';
 
+trait Position {
+  public $scaffale2;
+  public $mensola1;
+}
 
 class Giochi extends Prodotti
 {
