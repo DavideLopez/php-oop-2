@@ -2,15 +2,15 @@
 
 require_once __DIR__ . '/Prodotti.php';
 
-class AnimalFood extends Prodotti
+class Food extends Prodotti
 {
   public $ingredienti;
-  
-  public function __construct($ingredienti, $nome, $marca, $prezzo, $peso)
+  public $tagliaCane;
+  public function __construct($ingredienti, $tagliaCane, $nome, $marca, $prezzo, $peso)
   {
     $this->ingredienti = $ingredienti;
-    
-    parent::__construct($marca,$nome,$prezzo,$peso);
+    $this->tagliaCane = $tagliaCane; 
+    parent::__construct($marca, $nome, $prezzo, $peso);
     $this->nome = $nome;
     $this->prezzo = $prezzo;
     $this->peso = $peso;
