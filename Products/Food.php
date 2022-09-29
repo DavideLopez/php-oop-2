@@ -1,9 +1,16 @@
 <?php 
 
 require_once __DIR__ . '/Prodotti.php';
+require_once __DIR__ . '/Position.php';
+
+
 
 class Food extends Prodotti
 {
+  
+  use Position;
+
+
   public $ingredienti;
   public $tagliaCane;
   public function __construct($ingredienti, $tagliaCane, $nome, $marca, $prezzo, $peso)
