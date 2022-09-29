@@ -5,8 +5,8 @@ require_once __DIR__ . '/Products/Giochi.php';
 require_once __DIR__ . '/Products/Food.php';
 
 
-$crocchette1 = new Food('carne di pollo','cane taglia grande','Crocchette supertasty','chick&meat',35, 8);
-$crocchette2 = new Food('carne di manzo','cane taglia piccola','Crocchette monge','RALF',25,3);
+$crocchette1 = new Food('carne di pollo', 'dicembre2021', 'cane taglia grande','Crocchette supertasty','chick&meat',35, 8);
+$crocchette2 = new Food('carne di manzo', 'dicembre2021', 'cane taglia piccola','Crocchette monge','RALF',25,3);
 $giocattolo1 = new Giochi('gomma','osso','TRIXIE','Osso TRIXIE XL',5,0.2);
 $giocattolo2 = new Giochi('stoffa','pupazzo','TRIXIE','Pupazzo TRIXIE bounce',7,0.1);
 

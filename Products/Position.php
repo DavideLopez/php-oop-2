@@ -24,21 +24,6 @@ trait Position {
   
 }
 
-
-
- function Somma($a,$b) {
-  if($a + $b > 5) {
-    throw new Exception('il tuo elemento è maggiore di 5');
-    return; 
-  } 
-  return $a + $b; 
-}
-
- try  {
-  Somma(3,3);
- } catch (Exception $e) {
-   var_dump($e);
- }
  
   
 
